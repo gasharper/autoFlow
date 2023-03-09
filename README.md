@@ -12,13 +12,11 @@ Coming Soon……
 
 **Note:** the *autoFlow* framework is the core framework used in our work (PyramidFlow, CVPR 2023), which is more powerful and user-friendly than memcnn or FrEIA. If it is helpful, please cite our work.
 ```
-@misc{lei2023pyramidflow,
-      title={PyramidFlow: High-Resolution Defect Contrastive Localization using Pyramid Normalizing Flow}, 
-      author={Jiarui Lei and Xiaobo Hu and Yue Wang and Dong Liu},
-      year={2023},
-      eprint={2303.02595},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
+@article{lei2023pyramidflow,
+  title={PyramidFlow: High-Resolution Defect Contrastive Localization using Pyramid Normalizing Flow},
+  author={Jiarui Lei and Xiaobo Hu and Yue Wang and Dong Liu},
+  journal={CVPR},
+  year={2023}
 }
 ```
 
