@@ -7,10 +7,26 @@
 
 To best of our knowledge, this is the first normalization flow (reversible neural network) framework that implements memory saving and automatic Jacobian tracking. The entire framework consists of only one file, *autoFlow.py*, which is easy to use and requires no installation!
 
-Coming Soon……
+## Requirements
+PyTorch >= 1.9.0
+
+## Quick Start
+git clone this repository by 
+```
+git clone https://github.com/gasharper/autoFlow.git
+```
+In our repository, `autoFlow.py` is the core framework file, while the `simple_test.py` is a quick start python script to learn how to use this framework. 
+
+You can run the following command to test and learn this framework:
+```
+python simple_test.py
+```
+
+In `simple_test.py` script, we built the simplest `PyramidFlow (w/o Volume Normalization or other tricks)` as a test model. You can flexibly build your own model in a similar way.
 
 
-**Note:** the *autoFlow* framework is the core framework used in our work (PyramidFlow, CVPR 2023), which is more powerful and user-friendly than memcnn or FrEIA. If it is helpful, please cite our work.
+## Note
+The *autoFlow* framework is the core framework used in our work (PyramidFlow, CVPR 2023), which is more powerful and user-friendly than memcnn or FrEIA. If it is helpful, please star this repository and cite our work.
 ```
 @article{lei2023pyramidflow,
   title={PyramidFlow: High-Resolution Defect Contrastive Localization using Pyramid Normalizing Flow},
