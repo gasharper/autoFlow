@@ -22,7 +22,7 @@ You can run the following command to test and learn this framework:
 python simple_test.py
 ```
 
-In `simple_test.py` script, we built the simplest `PyramidFlow (w/o Volume Normalization or other tricks)` as a test model. You can flexibly build your own model in a similar way.
+In `simple_test.py` script, we built the simplest `PyramidFlow (w/o Volume Normalization and other tricks)` as a test model. You can flexibly build your own model in a similar way.
 
 
 ## Note
