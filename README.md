@@ -1,5 +1,5 @@
 # autoFlow
-**A sequence normalization flow framework with memory saving, automatic Jacobian tracking, and object-oriented programming features.**
+**A sequence normalizing flows framework with memory saving, automatic Jacobian tracking, and object-oriented programming features.**
 
 - **Memory saving.** It has memory saving properties within and between blocks, just as simple as the [memcnn](https://github.com/silvandeleemput/memcnn) library.
 - **Automatic Jacobian tracking.** Based on custom modules, automatic computation of log Jacobian determinant is implemented, just as simple as the [FrEIA](https://github.com/vislearn/FrEIA) library.
