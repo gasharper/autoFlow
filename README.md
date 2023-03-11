@@ -22,7 +22,7 @@ You can run the following command to test and learn this framework:
 python simple_test.py
 ```
 
-In `simple_test.py` script, we built the simplest `PyramidFlow (w/o Volume Normalization and other tricks, only two layer)` as a test model. You can flexibly build your own model in a similar way. If you have any issues in reproducing our work, please contact me at `karrilett@zju.edu.cn`.
+In `simple_test.py` script, we built the simplest `PyramidFlow` (w/o Volume Normalization and other tricks, only two layer) as a test model. You can flexibly build your own model in a similar way. If you have any issues in reproducing our work, please contact me at `karrilett@zju.edu.cn`.
 
 ## Note
 The *autoFlow* framework is the core framework used in our work (PyramidFlow, CVPR 2023), which is more powerful and user-friendly than memcnn or FrEIA. If it is helpful, please star this repository and cite our work.
