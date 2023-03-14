@@ -23,6 +23,8 @@ from typing import Tuple
 from abc import abstractmethod
 from torch.cuda.amp import custom_fwd, custom_bwd
 
+__all__ = ["InvertibleModule", "SequentialNF", "SequentialNet"]
+
 
 class InvertibleModule(nn.Module):
     """
